@@ -38,6 +38,7 @@ const Black: React.FC = () => {
       <Chessboard
         width={400}
         position={fen}
+        orientation='black'
         onDrop={(move) =>
           handleMove({
             from: move.sourceSquare,
