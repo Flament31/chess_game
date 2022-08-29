@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import Chessboard from "chessboardjsx";
 import { ChessInstance, ShortMove } from "chess.js";
-const Chess = require("chess.js");
+import { Chess } from 'chess.js';
 
 const App: React.FC = () => {
 
