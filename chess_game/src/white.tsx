@@ -4,6 +4,7 @@ import './App.css';
 import Chessboard from "chessboardjsx";
 import { ChessInstance, ShortMove } from "chess.js";
 import { Chess } from 'chess.js';
+import Header from './header';
 
 const White: React.FC = () => {
 
@@ -33,6 +34,7 @@ const White: React.FC = () => {
   return (
     <div className="flex-center">
       <h1>Random Chess</h1>
+      <Header />
       <Chessboard
         width={400}
         position={fen}
