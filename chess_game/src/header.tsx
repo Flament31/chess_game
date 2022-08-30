@@ -3,13 +3,19 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
     return (
-        <div>
-            <Link to="/">
-                Jouer avec les blancs
-            </Link>
-            <Link to="/black">
-                Joueur avec les noirs
-            </Link>
+        <div className='mx-auto my-2'>
+            <button className="btn btn-light">
+                <Link to="/">
+                    Jouer avec les blancs
+                </Link>
+            </button>
+
+            <button className="btn btn-dark">
+                <Link to="/black">
+                    Joueur avec les noirs
+                </Link>
+            </button>
+
         </div>
     )
 
